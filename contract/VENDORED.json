@@ -1,0 +1,34 @@
+{
+ "contract_version": 4,
+ "files": {
+  "reference/js/omegeth_contract.js": "js/omegeth_contract.js",
+  "reference/python/omegeth_reader.py": "python/omegeth_reader.py",
+  "vectors/key_proofs.json": "vectors/key_proofs.json",
+  "vectors/log/omegeth.claims-office/vectors.example/batches/00000000.json": "vectors/log/omegeth.claims-office/vectors.example/batches/00000000.json",
+  "vectors/log/omegeth.claims-office/vectors.example/batches/00000001.json": "vectors/log/omegeth.claims-office/vectors.example/batches/00000001.json",
+  "vectors/log/omegeth.claims-office/vectors.example/head.json": "vectors/log/omegeth.claims-office/vectors.example/head.json",
+  "vectors/log/omegeth.corporate-root/vectors.example/batches/00000000.json": "vectors/log/omegeth.corporate-root/vectors.example/batches/00000000.json",
+  "vectors/log/omegeth.corporate-root/vectors.example/batches/00000001.json": "vectors/log/omegeth.corporate-root/vectors.example/batches/00000001.json",
+  "vectors/log/omegeth.corporate-root/vectors.example/head.json": "vectors/log/omegeth.corporate-root/vectors.example/head.json",
+  "vectors/log/omegeth.identity-office/vectors.example/batches/00000000.json": "vectors/log/omegeth.identity-office/vectors.example/batches/00000000.json",
+  "vectors/log/omegeth.identity-office/vectors.example/batches/00000001.json": "vectors/log/omegeth.identity-office/vectors.example/batches/00000001.json",
+  "vectors/log/omegeth.identity-office/vectors.example/head.json": "vectors/log/omegeth.identity-office/vectors.example/head.json",
+  "vectors/public_statements.json": "vectors/public_statements.json"
+ },
+ "public": true,
+ "sha256": {
+  "js/omegeth_contract.js": "65270793f7e6a17ff0aef9f4abd81fa4b156296e79a2e4904e4ea90e5b5ee5e5",
+  "python/omegeth_reader.py": "1e971eb17ee0a960562e024951731e936c98579ded12e3abf03a9c96f017b752",
+  "vectors/key_proofs.json": "3d1083cb050b766fc37b73d7623f2b4e481948d2413a0ac05d85429f54f9bb36",
+  "vectors/log/omegeth.claims-office/vectors.example/batches/00000000.json": "32282bf55d1f0456ee466fde756948929c18e783c4474d6f9e73977ba3d1a26f",
+  "vectors/log/omegeth.claims-office/vectors.example/batches/00000001.json": "b4b3bb210224e543aed0d2fc55280aa682e0c1bb2238bc04938b3b2627d50176",
+  "vectors/log/omegeth.claims-office/vectors.example/head.json": "7bbb86762a72aa4639bc052c9898311e372d658dc4c2983fdcceba56d1f45db7",
+  "vectors/log/omegeth.corporate-root/vectors.example/batches/00000000.json": "dca0c59b8ed21ac45cade8805ba00c9ea3b878bf3df3d3351b586821fd19e08c",
+  "vectors/log/omegeth.corporate-root/vectors.example/batches/00000001.json": "61ee073862ba83b25db77aa49d93233f303b6e2b37ef5653f5a613e82a8a48ef",
+  "vectors/log/omegeth.corporate-root/vectors.example/head.json": "fdb89a1cce6d518e273b6a72c054ee06b960d6351f01d95db71cf37f9b8f37f2",
+  "vectors/log/omegeth.identity-office/vectors.example/batches/00000000.json": "08487054a188e6bae20cbe45332b6e4423d75f9df0a59ef12a01f9fea894d15d",
+  "vectors/log/omegeth.identity-office/vectors.example/batches/00000001.json": "eb2614e1aa0e6ef0069a6008a2bc161b249bed8053fcae70113f6b0f3e403faf",
+  "vectors/log/omegeth.identity-office/vectors.example/head.json": "bf075b424dfef9549988dc9e75a12c5425193ff39cf7ba1df0e606fd13093465",
+  "vectors/public_statements.json": "05cdc55ca6267b1f1f218e73d9359b5ca7e2ed27731136dc785726076db54c7b"
+ }
+}

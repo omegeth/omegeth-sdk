@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src https://docs.omegeth.com">
+<title>Claims in force</title>
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem auto; max-width: 56rem; padding: 0 1rem; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border-bottom: 1px solid #ccc; padding: .4rem .6rem; text-align: left; font-variant-numeric: tabular-nums; }
+  code { font-size: .9em; }
+  .warn { color: #a40; }
+</style>
+</head>
+<body>
+<h1>Claims in force</h1>
+<p id="status">Verifying the record…</p>
+<table hidden id="claims">
+  <thead><tr><th>Partition</th><th>Claim</th><th>Node key ID</th></tr></thead>
+  <tbody></tbody>
+</table>
+<h2 hidden id="pending-title">Pending node key changes</h2>
+<ul id="pending"></ul>
+<script src="../js/omegeth_contract.js"></script>
+<script src="docket.js"></script>
+<script src="docket_page.js"></script>
+</body>
+</html>

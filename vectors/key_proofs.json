@@ -1,0 +1,87 @@
+{
+ "client_seed_hex": "808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9f",
+ "contract_version": 4,
+ "invalid": [
+  {
+   "case": "another world",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "another.world"
+  },
+  {
+   "case": "another purpose",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.other",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "another subject",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0413 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "another key",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "Kay64UG8yvCyLhqU000LxzYeUm0L/hLIl5S8kyKWbdc=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "a changed signature",
+   "proof_base64": "WzGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "a short signature",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYC",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "not base64",
+   "proof_base64": "not base64!",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  },
+  {
+   "case": "a subject with NUL",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω\u0000",
+   "world": "vectors.example"
+  },
+  {
+   "case": "a malformed purpose",
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "Claim",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  }
+ ],
+ "valid": [
+  {
+   "proof_base64": "WjGzwfLuHk8hb3AOfDWwGbpo1nsI88whR2dfsS62+3URpIxdw2/tM4bypkbkjFLONH0NuO0irzvEX9tQMcYCAg==",
+   "public_key_base64": "zRSzf5VulTGU/3+3Oz2B3MVh1hp1OAlLfD4aZD7l86o=",
+   "purpose": "claim.node",
+   "subject": "6f0c1d3e-8a51-4c7b-9a4e-2f0f6d1b2c77\nM-0412 · Ω",
+   "world": "vectors.example"
+  }
+ ]
+}
